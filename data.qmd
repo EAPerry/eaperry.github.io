@@ -1,0 +1,18 @@
+---
+title: "Data & Software"
+listing:
+  contents: 
+    - "data/daily-weather-forecasts.qmd"
+    - "data/coe-college-tree-archive.qmd"
+  type: default
+  sort: false
+  fields: [image, title, description]
+---
+
+<br>
+
+This page contains brief descriptions and links to some of my data and software projects. For the latest on all my data and software projects, visit [my GitHub profile](https://github.com/EAPerry).
+
+<br>
+
+---

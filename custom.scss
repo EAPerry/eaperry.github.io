@@ -1,0 +1,32 @@
+/*-- scss:defaults --*/
+
+$primary:       #506C64 !default;
+$navbar-fg:     #FFFFFF !default;
+$navbar-hl:     #FFFFFF !default;
+
+::selection {
+  color: white;
+  background: black;
+}
+
+.button {
+  background-color: #381D2A;
+  border: 2px solid #381D2A;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.1rem;
+  border-radius: 12px;
+}
+
+.button:hover {
+  background-color: white; 
+  color: #381D2A;
+  border: 2px solid #381D2A;
+}
+
+.justify {
+  text-align: justify !important
+}

@@ -1,0 +1,22 @@
+---
+title: 'Bio'
+---
+
+
+
+::: {.justify}
+I'm currently a Research Analyst at the Federal Reserve Bank of New York in the Research Group's Climate Risk Studies Department. At the New York Fed, I support [Jo&#227;o A.C. Santos](https://www.newyorkfed.org/research/economists/Santos) and [Kristian Blickle](https://sites.google.com/site/kristiansblickle/) and work on research projects that aim to improve our understanding of how evolving climate risks impact household finance and the nation's financial stability.
+
+My research interests are centered around the equity implications of energy, environmental, and climate policy---particularly those implications related to disparities in air quality. To study these topics, I'm primarily interested in using models from industrial organization alongside physical models of environmental systems.
+
+I hold a BA in Economics and Math from [Coe College](https://www.coe.edu/), a liberal arts college located in my home state of Iowa. I also take graduate classes as a non-degree seeking student in math and statistics at NYU. When I'm not working, I enjoy drawing and bird watching (though I'm not particularly good at either).
+
+*All views expressed on this website are my own and do not necessarily reflect the views of the Federal Reserve Bank of New York, the Federal Reserve System, or its Board of Governors.*
+:::
+<br>
+
+<center> 
+
+<img src="evan_perry.png" align="center" width="200" hspace="10"/>
+
+</center>

@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "data/coe-college-tree-archive.html",
+    "href": "data/coe-college-tree-archive.html",
+    "title": "Coe College Tree Archive",
+    "section": "",
+    "text": "Coe College Tree Archive\n\n\nI started the project in the Fall semester of my senior year at Coe, and thanks to support from the faculty and students at Coe, I continue to gratefully maintain the tree archive. Apart from this website, the Coe College Tree Archive is also accessible through Stewart Memorial Library’s databases and Coe College’s sustainability page. All data and code for the project are available on the archive’s GitHub repository."
+  },
+  {
+    "objectID": "data/daily-weather-forecasts.html#about-the-data",
+    "href": "data/daily-weather-forecasts.html#about-the-data",
+    "title": "Daily Weather Forecasts",
+    "section": "About the Data",
+    "text": "About the Data\nThis project archives daily forecast data from the National Weather Service. All data come from the National Weather Service’s API. The API’s site contains relevant information and documentation about data available in the repository. To collect forecast data from the National Weather Service’s API, a user must first use the API to find an endpoint URL for a specific (user provided) latitude and longitude. This latitude and longitude is then mapped to the forecasting grid that the National Weather Service uses, and the API returns a URL of the gridpoint associated with the provided latitude and longitude. Then this endpoint URL can be passed back to the API, which returns forecast data.\nUsing the API requires us to choose GPS coordinates that we want forecast data from. To keep this most relevant to policy researchers, I choose to use the GPS coordinates of all US county centroids as well as the GPS coordinates of all US power plants. The forecast data returned is at a subdaily frequency—one observation for the daytime and one observation for the nighttime. I restrict the data to just day-of forecasts, omitting forecasts made, for instance, three days ahead.\nThere are many incredible resources for weather and climate data in the US. Notably, the National Center for Environmental Information provides county-level climate data. Unfortunately these data do not contain potentially relevant fields to policy researchers (e.g., wind speed, wind direction, cloud cover)."
+  },
+  {
+    "objectID": "data/daily-weather-forecasts.html#data-structure",
+    "href": "data/daily-weather-forecasts.html#data-structure",
+    "title": "Daily Weather Forecasts",
+    "section": "Data Structure",
+    "text": "Data Structure\nThe county-level forecast data contain the following fields.\n\n\n\n\n\nVariable\nDescription\n\n\n\n\nfips\n5-digit FIPS county FIPS code\n\n\nlat\nLatitude of county centroid\n\n\nlon\nLongitude of county centroid\n\n\nname\nString description of the time of day; e.g., \"Monday Night\"\n\n\nisDaytime\nBoolean; whether or not the current observation is for the daytime or nighttime\n\n\nstartDate\nDate associated with the start time\n\n\nendDate\nDate associated with the end time\n\n\nstartTime\nDatetime when the forecast observation period begins\n\n\nendTime\nDatetime when the forecast observation period ends\n\n\ntemperature\nTemperature\n\n\ntemperatureUnit\nTemperature unit; Fahrenheit\n\n\ntemperatureTrend\nString describing direction of temperatures; e.g., \"rising\"\n\n\nwindSpeed\nString of the windspeed; e.g., \"5 to 10 mph\"\n\n\nwindDirection\nString abbreviation for the wind direction\n\n\nprobabilityOfPrecipitation\nProbability of precipitation\n\n\nprobabilityOfPrecipitationUnit\nUnit for Probability of precipitation; percent\n\n\ndewpoint\nDewpoint\n\n\ndewpointUnit\nDewpoint unit; degrees Celsius\n\n\nrelativeHumidity\nRelative humidity\n\n\nrelativeHumidityUnit\nRelative humidity unit; percent\n\n\nshortForecast\nBrief description of weather forecast\n\n\ndetailedForecast\nLonger, detailed description of weather forecast"
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "Data & Software",
+    "section": "",
+    "text": "This page contains brief descriptions and links to some of my data and software projects. For the latest on all my data and software projects, visit my GitHub profile.\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\nDaily Weather Forecasts\n\n\n\n\n\n The National Weather Service creates daily weather forecasts across the country, but does not publish historical daily weather forecasts. This repository—updated daily—archives forecasts beginning in September 2023. Daily forecast data are available at the location of county centroids and US power plants.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nCoe College Tree Archive\n\n\n\n\n\n The Coe College Tree Archive is an online record of trees on Coe College’s campus. By creating an online archive, the project attempts to collect valuable environmental data and promote engagement with Coe’s urban forest. The online archive features interactive maps, profiles of Coe’s trees, environmental benefit estimates, tips for tree identification, and opportunities to contribute to the archive.\n\n\n\n\n \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bio",
+    "section": "",
+    "text": "I’m currently a Research Analyst at the Federal Reserve Bank of New York in the Research Group’s Climate Risk Studies Department. At the New York Fed, I support João A.C. Santos and Kristian Blickle and work on research projects that aim to improve our understanding of how evolving climate risks impact household finance and the nation’s financial stability.\nMy research interests are centered around the equity implications of energy, environmental, and climate policy—particularly those implications related to disparities in air quality. To study these topics, I’m primarily interested in using models from industrial organization alongside physical models of environmental systems.\nI hold a BA in Economics and Math from Coe College, a liberal arts college located in my home state of Iowa. I also take graduate classes as a non-degree seeking student in math and statistics at NYU. When I’m not working, I enjoy drawing and bird watching (though I’m not particularly good at either).\nAll views expressed on this website are my own and do not necessarily reflect the views of the Federal Reserve Bank of New York, the Federal Reserve System, or its Board of Governors."
+  }
+]

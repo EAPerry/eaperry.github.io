@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Evan Perry"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Bio
+      - href: research.qmd
+        text: "Research & Writing" 
+      - href: data.qmd
+        text: "Data & Software"
+
+format:
+  html:
+    theme: 
+      - default
+      - custom.scss
+    fontsize: 1.1rem
+    fontcolor: "#666666"
+    linkcolor: "#381D2A"
+    css: styles.css
+    toc: true
+
+editor: visual
