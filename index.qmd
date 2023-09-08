@@ -5,7 +5,7 @@ title: 'Bio'
 
 
 ::: {.justify}
-I'm currently a Research Analyst at the Federal Reserve Bank of New York in the Research Group's Climate Risk Studies Department. At the New York Fed, I support [Jo&#227;o A.C. Santos](https://www.newyorkfed.org/research/economists/Santos) and [Kristian Blickle](https://sites.google.com/site/kristiansblickle/) and work on research projects that aim to improve our understanding of how evolving climate risks impact household finance and the nation's financial stability.
+I'm currently a Research Analyst at the Federal Reserve Bank of New York in the Research Group's Climate Risk Studies Department. At the New York Fed, I support [Jo&#227;o A.C. Santos](https://www.newyorkfed.org/research/economists/Santos) and [Kristian Blickle](https://sites.google.com/site/kristiansblickle/) and work on research projects that aim to improve our understanding of how evolving climate risks impact household finance and financial intermediation.
 
 My research interests are centered around the equity implications of energy, environmental, and climate policy---particularly those implications related to disparities in air quality. To study these topics, I'm primarily interested in using models from industrial organization alongside physical models of environmental systems.
 
