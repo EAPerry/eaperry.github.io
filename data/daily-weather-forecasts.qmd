@@ -4,14 +4,9 @@ image: "daily-weather-forecast.png"
 description: "<br> The National Weather Service creates daily weather forecasts across the country, but does not publish historical daily weather forecasts. This repository---updated daily---archives forecasts beginning in September 2023. Daily forecast data are available at the location of county centroids and US power plants."
 ---
 
-
 <br>
 
-<center>
-
-<a class="button" href="https://github.com/EAPerry/daily-weather-forecasts/raw/main/county-weather">Get Forecasts for County Centroids</a> &emsp; <a class="button" href="https://github.com/EAPerry/daily-weather-forecasts/raw/main/facility-weather">Get Forecasts for US Power Plants</a>
-
-</center>
+<center><a class="button" href="https://github.com/EAPerry/daily-weather-forecasts/raw/main/county-weather">Get Forecasts for County Centroids</a> &emsp; <a class="button" href="https://github.com/EAPerry/daily-weather-forecasts/raw/main/facility-weather">Get Forecasts for US Power Plants</a></center>
 
 <br>
 
@@ -23,10 +18,9 @@ Using the API requires us to choose GPS coordinates that we want forecast data f
 
 There are many incredible resources for weather and climate data in the US. Notably, the National Center for Environmental Information provides [county-level climate data](https://www.ncei.noaa.gov/news/noaa-offers-climate-data-counties). Unfortunately these data do not contain potentially relevant fields to policy researchers (e.g., wind speed, wind direction, cloud cover).
 
-
 ## Data Structure
 
-The county-level forecast data contain the following fields.
+The county-level data contain county FIPS codes as identifiers, and the plant-level data contain EIA plant ID codes as identifiers. Along with the identifiers, the datasets contain the exact latitude and longitude used in the API request (the coordinates of the centroid in the county data and the coordinates of the plant in the plant data.) Both the county- and plant-level data contain the following fields:
 
 ```{r}
 #| error: false
@@ -38,13 +32,8 @@ The county-level forecast data contain the following fields.
 library(tidyverse)
 library(kableExtra)
 df <- read_csv("C:/Users/eaper/OneDrive/personal-website/daily-weather-forecasts/reference-data/counties-dict.csv")
+df <- df[4:22,]
 
-colnames(df) <- c("Variable", "Description")
-
-df %>%
-  kable("html", escape = FALSE) %>%
-  kable_styling(bootstrap_options = c("hover", "condensed"))
+kable(df)
 
 ```
-
-

@@ -60,14 +60,11 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-<script src="../site_libs/kePrint-0.0.1/kePrint.js"></script>
-<link href="../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
-
 
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -107,16 +104,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#about-the-data" id="toc-about-the-data" class="nav-link active" data-scroll-target="#about-the-data">About the Data</a></li>
-  <li><a href="#data-structure" id="toc-data-structure" class="nav-link" data-scroll-target="#data-structure">Data Structure</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -144,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
 
 <p><br></p>
 <center>
-<p><a class="button" href="https://github.com/EAPerry/daily-weather-forecasts/raw/main/county-weather">Get Forecasts for County Centroids</a>   <a class="button" href="https://github.com/EAPerry/daily-weather-forecasts/raw/main/facility-weather">Get Forecasts for US Power Plants</a></p>
+<a class="button" href="https://github.com/EAPerry/daily-weather-forecasts/raw/main/county-weather">Get Forecasts for County Centroids</a>   <a class="button" href="https://github.com/EAPerry/daily-weather-forecasts/raw/main/facility-weather">Get Forecasts for US Power Plants</a>
 </center>
 <p><br></p>
 <section id="about-the-data" class="level2">
@@ -155,10 +143,10 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="data-structure" class="level2">
 <h2 class="anchored" data-anchor-id="data-structure">Data Structure</h2>
-<p>The county-level forecast data contain the following fields.</p>
+<p>The county-level data contain county FIPS codes as identifiers, and the plant-level data contain EIA plant ID codes as identifiers. Along with the identifiers, the datasets contain the exact latitude and longitude used in the API request (the coordinates of the centroid in the county data and the coordinates of the plant in the plant data.) Both the county- and plant-level data contain the following fields:</p>
 <div class="cell">
 <div class="cell-output-display">
-<table class="table table-hover table-condensed table-sm table-striped small" data-quarto-postprocess="true" data-tbl-colwidths="[40,60]">
+<table data-quarto-postprocess="true" data-tbl-colwidths="[40,60]" class="table table-sm table-striped small">
 <thead>
 <tr class="header">
 <th style="text-align: left;" data-quarto-table-cell-role="th">Variable</th>
@@ -167,90 +155,78 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">fips</td>
-<td style="text-align: left;">5-digit FIPS county FIPS code</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">lat</td>
-<td style="text-align: left;">Latitude of county centroid</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">lon</td>
-<td style="text-align: left;">Longitude of county centroid</td>
-</tr>
-<tr class="even">
 <td style="text-align: left;">name</td>
 <td style="text-align: left;">String description of the time of day; e.g., "Monday Night"</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">isDaytime</td>
 <td style="text-align: left;">Boolean; whether or not the current observation is for the daytime or nighttime</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">startDate</td>
 <td style="text-align: left;">Date associated with the start time</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">endDate</td>
 <td style="text-align: left;">Date associated with the end time</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">startTime</td>
 <td style="text-align: left;">Datetime when the forecast observation period begins</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">endTime</td>
 <td style="text-align: left;">Datetime when the forecast observation period ends</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">temperature</td>
 <td style="text-align: left;">Temperature</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">temperatureUnit</td>
 <td style="text-align: left;">Temperature unit; Fahrenheit</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">temperatureTrend</td>
 <td style="text-align: left;">String describing direction of temperatures; e.g., "rising"</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">windSpeed</td>
 <td style="text-align: left;">String of the windspeed; e.g., "5 to 10 mph"</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">windDirection</td>
 <td style="text-align: left;">String abbreviation for the wind direction</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">probabilityOfPrecipitation</td>
 <td style="text-align: left;">Probability of precipitation</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">probabilityOfPrecipitationUnit</td>
 <td style="text-align: left;">Unit for Probability of precipitation; percent</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">dewpoint</td>
 <td style="text-align: left;">Dewpoint</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">dewpointUnit</td>
 <td style="text-align: left;">Dewpoint unit; degrees Celsius</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">relativeHumidity</td>
 <td style="text-align: left;">Relative humidity</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">relativeHumidityUnit</td>
 <td style="text-align: left;">Relative humidity unit; percent</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">shortForecast</td>
 <td style="text-align: left;">Brief description of weather forecast</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">detailedForecast</td>
 <td style="text-align: left;">Longer, detailed description of weather forecast</td>
 </tr>
