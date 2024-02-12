@@ -146,17 +146,21 @@ ul.task-list li input[type="checkbox"] {
 <p>The county-level data contain county FIPS codes as identifiers, and the plant-level data contain EIA plant ID codes as identifiers. Along with the identifiers, the datasets contain the exact latitude and longitude used in the API request (the coordinates of the centroid in the county data and the coordinates of the plant in the plant data.) Both the county- and plant-level data contain the following fields:</p>
 <div class="cell">
 <div class="cell-output-display">
-<table data-quarto-postprocess="true" data-tbl-colwidths="[40,60]" class="table table-sm table-striped small">
+<table class="table table-sm table-striped small">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 60%">
+</colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;" data-quarto-table-cell-role="th">Variable</th>
-<th style="text-align: left;" data-quarto-table-cell-role="th">Description</th>
+<th style="text-align: left;">Variable</th>
+<th style="text-align: left;">Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">name</td>
-<td style="text-align: left;">String description of the time of day; e.g., "Monday Night"</td>
+<td style="text-align: left;">String description of the time of day; e.g., “Monday Night”</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">isDaytime</td>
@@ -188,11 +192,11 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td style="text-align: left;">temperatureTrend</td>
-<td style="text-align: left;">String describing direction of temperatures; e.g., "rising"</td>
+<td style="text-align: left;">String describing direction of temperatures; e.g., “rising”</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">windSpeed</td>
-<td style="text-align: left;">String of the windspeed; e.g., "5 to 10 mph"</td>
+<td style="text-align: left;">String of the windspeed; e.g., “5 to 10 mph”</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">windDirection</td>
@@ -232,8 +236,6 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-
-
 </div>
 </div>
 
