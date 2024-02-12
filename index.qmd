@@ -19,6 +19,6 @@ You can contact me at [evan.perry@ny.frb.org](mailto:evan.perry@ny.frb.org).
 
 <center> 
 
-<img src="evan_perry.png" align="center" width="200" hspace="10"/>
+<img src="images/evan_perry.png" align="center" width="200" hspace="10"/>
 
 </center>
