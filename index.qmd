@@ -1,24 +1,73 @@
----
-title: 'Bio'
----
+```{=html}
+<script>
+function toggleAbstract(paperId) {
+  var abstract = document.getElementById(paperId);
+  var btn = document.getElementById(paperId + '-btn');
+  // Toggle visibility of the abstract
+  if (abstract.style.display === "none") {
+    abstract.style.display = "block";
+    btn.textContent = "Hide Abstract"; // Change button text
+  } else {
+    abstract.style.display = "none";
+    btn.textContent = "View Abstract"; // Revert button text
+  }
+}
+</script>
 
 
+<script>
+function toggleSummary(paperId) {
+  var abstract = document.getElementById(paperId);
+  var btn = document.getElementById(paperId + '-btn');
+  // Toggle visibility of the abstract
+  if (abstract.style.display === "none") {
+    abstract.style.display = "block";
+    btn.textContent = "Hide Summary"; // Change button text
+  } else {
+    abstract.style.display = "none";
+    btn.textContent = "View Summary"; // Revert button text
+  }
+}
+</script>
+```
+::: fixed-image
+<center><img src="images/evan_perry.png" align="center" width="150"/></center>
 
-::: {.justify}
-I'm currently a Research Analyst at the Federal Reserve Bank of New York in the Research Group's Climate Risk Studies Department. At the New York Fed, I support [Jo&#227;o A.C. Santos](https://www.newyorkfed.org/research/economists/Santos) and [Kristian Blickle](https://sites.google.com/site/kristiansblickle/) and work on research projects that aim to improve our understanding of how evolving climate risks impact household finance and financial intermediation.
+[Evan Perry]{style="font-size: 30px; font-weight: bold; color: #381D2A;"} <br>
 
-My research interests are centered around the equity implications of energy, environmental, and climate policy---particularly those implications related to disparities in air quality. To study these topics, I'm primarily interested in using models from industrial organization alongside physical models of environmental systems.
+[evan.perry\@ny.frb.org](mailto:evan.perry@ny.frb.org) <br> [Google Scholar](https://scholar.google.com/citations?user=jWdgnFkAAAAJ&hl=en&oi=ao)
+:::
 
-I hold a BA in Economics and Math from [Coe College](https://www.coe.edu/), a liberal arts college located in my home state of Iowa. When I'm not working, I enjoy drawing and bird watching (though I'm not particularly good at either).
-
-You can contact me at [evan.perry@ny.frb.org](mailto:evan.perry@ny.frb.org).
+::: justify
+I'm currently a Research Analyst at the Federal Reserve Bank of New York in the Research Group's Financial Intermediation section. At the New York Fed, I support [Jo&#227;o A.C. Santos](https://www.newyorkfed.org/research/economists/Santos) and [Kristian Blickle](https://sites.google.com/site/kristiansblickle/) and work on research projects that aim to improve our understanding of how evolving climate risks impact household finance and financial intermediation. My research interests are centered around the using tools from industrial organization and financial economics to study issues and energy and environmental economics. I hold a BA in Economics and Math from [Coe College](https://www.coe.edu/), a liberal arts college located in my home state of Iowa.
 
 *All views expressed on this website are my own and do not necessarily reflect the views of the Federal Reserve Bank of New York, the Federal Reserve System, or its Board of Governors.*
 :::
+
+[Research]{style="font-size: 24px; font-weight: bold; color: #381D2A;"} <br>
+
+[**Do Mortgage Lenders Respond to Flood Risk?**](https://www.newyorkfed.org/research/staff_reports/sr1101) (May 2024)<br> 
+&emsp;with [Kristian S. Blickle](https://sites.google.com/site/kristiansblickle/) and [Jo&#227;o A.C. Santos](https://www.newyorkfed.org/research/economists/Santos)<br> 
+&emsp;Related: [LSE Blog](https://libertystreeteconomics.newyorkfed.org/2024/09/flood-risk-outside-flood-zones-a-look-at-mortgage-lending-in-risky-areas/)
+
+<button id="paper1-btn" class="toggle-btn" onclick="toggleAbstract(&#39;paper1&#39;)">
+View Abstract
+</button>
+
+::: {#paper1 .abstract style="display:none;"}
+<p>Using unique nationwide property-level mortgage, flood risk, and flood map data, we analyze whether lenders respond to flood risk that is not captured in FEMA flood maps. We find that lenders are less willing to originate mortgages and charge higher rates for lower LTV loans that face "un-mapped" flood risk. This effect is weaker for high income applicants, as well as non-banks and small local banks. However, we find evidence that non-banks and local banks are more likely to securitize/sell mortgages to borrowers prone to flood risk. Taken together, our results are indicative that mortgage lenders are aware of flood risk outside FEMA's identified flood zones.</p>
+:::
+
+<br> <br> [Other]{style="font-size: 24px; font-weight: bold; color: #381D2A;"} <br>
+
+[**Coe College Tree Archive**](https://coetreearchive.github.io/) (April 2023)
+
+<button id="paper1001-btn" class="toggle-btn" onclick="toggleSummary(&#39;paper1001&#39;)">
+View Summary
+</button>
+
+::: {#paper1001 .abstract style="display:none;"}
+<p>The Coe College Tree Archive is an online record of trees on Coe College's campus. By creating an online archive, the project attempts to collect valuable environmental data and promote engagement with Coe's urban forest. The online archive features interactive maps, profiles of Coe's trees, environmental benefit estimates, tips for tree identification, and opportunities to contribute to the archive.</p>
+:::
+
 <br>
-
-<center> 
-
-<img src="images/evan_perry.png" align="center" width="200" hspace="10"/>
-
-</center>

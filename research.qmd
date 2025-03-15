@@ -2,13 +2,8 @@
 title: "Research & Writing"
 ---
 
-
 <br>
 
-[Do Mortgage Lenders Respond to Flood Risk?](https://www.newyorkfed.org/research/staff_reports/sr1101) (May 2024) with [Kristian Blickle](https://sites.google.com/site/kristiansblickle/) and [Jo&#227;o A.C. Santos](https://www.newyorkfed.org/research/economists/Santos)
+[Do Mortgage Lenders Respond to Flood Risk?](https://www.newyorkfed.org/research/staff_reports/sr1101) (May 2024) with [Kristian Blickle](https://sites.google.com/site/kristiansblickle/) and [João A.C. Santos](https://www.newyorkfed.org/research/economists/Santos)
 
 *Abstract*: Using unique nationwide property-level mortgage, flood risk, and flood map data, we analyze whether lenders respond to flood risk that is not captured in FEMA flood maps. We find that lenders are less willing to originate mortgages and charge higher rates for lower LTV loans that face "un-mapped" flood risk. This effect is weaker for high income applicants, as well as non-banks and small local banks. However, we find evidence that non-banks and local banks are more likely to securitize/sell mortgages to borrowers prone to flood risk. Taken together, our results are indicative that mortgage lenders are aware of flood risk outside FEMA's identified flood zones.
-
-
-
-

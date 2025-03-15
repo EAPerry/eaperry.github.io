@@ -5,23 +5,14 @@ project:
 website:
   title: "Evan Perry"
   favicon: "images/icon.png"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Bio
-      - href: research.qmd
-        text: "Research & Writing" 
-      - href: data.qmd
-        text: "Data & Software"
 
 format:
   html:
     theme: 
-      - mint
       - custom.scss
-    fontsize: 1.1rem
+    fontsize: 1rem
     fontcolor: "#666666"
-    linkcolor: "#381D2A"
+    linkcolor: "#506C64"
     css: styles.css
     toc: false
 

@@ -1,8 +1,8 @@
 /*-- scss:defaults --*/
 
-$primary:       #506C64 !default;
-$navbar-fg:     #FFFFFF !default;
-$navbar-hl:     #FFFFFF !default;
+$primary:       #FFFFFF !default;
+$navbar-fg:     #506C64 !default;
+$navbar-hl:     #506C64 !default;
 
 ::selection {
   color: white;
@@ -17,7 +17,7 @@ $navbar-hl:     #FFFFFF !default;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1.1rem;
+  font-size: 1rem;
   border-radius: 12px;
 }
 

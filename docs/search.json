@@ -30,15 +30,29 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Bio",
+    "title": "Evan Perry",
     "section": "",
-    "text": "I’m currently a Research Analyst at the Federal Reserve Bank of New York in the Research Group’s Climate Risk Studies Department. At the New York Fed, I support João A.C. Santos and Kristian Blickle and work on research projects that aim to improve our understanding of how evolving climate risks impact household finance and financial intermediation.\nMy research interests are centered around the equity implications of energy, environmental, and climate policy—particularly those implications related to disparities in air quality. To study these topics, I’m primarily interested in using models from industrial organization alongside physical models of environmental systems.\nI hold a BA in Economics and Math from Coe College, a liberal arts college located in my home state of Iowa. When I’m not working, I enjoy drawing and bird watching (though I’m not particularly good at either).\nYou can contact me at evan.perry@ny.frb.org.\nAll views expressed on this website are my own and do not necessarily reflect the views of the Federal Reserve Bank of New York, the Federal Reserve System, or its Board of Governors."
+    "text": "Evan Perry \nevan.perry@ny.frb.org  Google Scholar\n\n\nI’m currently a Research Analyst at the Federal Reserve Bank of New York in the Research Group’s Financial Intermediation section. At the New York Fed, I support João A.C. Santos and Kristian Blickle and work on research projects that aim to improve our understanding of how evolving climate risks impact household finance and financial intermediation. My research interests are centered around the using tools from industrial organization and financial economics to study issues and energy and environmental economics. I hold a BA in Economics and Math from Coe College, a liberal arts college located in my home state of Iowa.\nAll views expressed on this website are my own and do not necessarily reflect the views of the Federal Reserve Bank of New York, the Federal Reserve System, or its Board of Governors.\n\nResearch \nDo Mortgage Lenders Respond to Flood Risk? (May 2024)  with Kristian S. Blickle and João A.C. Santos  Related: LSE Blog\n\nView Abstract\n\n\n\nUsing unique nationwide property-level mortgage, flood risk, and flood map data, we analyze whether lenders respond to flood risk that is not captured in FEMA flood maps. We find that lenders are less willing to originate mortgages and charge higher rates for lower LTV loans that face “un-mapped” flood risk. This effect is weaker for high income applicants, as well as non-banks and small local banks. However, we find evidence that non-banks and local banks are more likely to securitize/sell mortgages to borrowers prone to flood risk. Taken together, our results are indicative that mortgage lenders are aware of flood risk outside FEMA’s identified flood zones.\n\n\n  Other \nCoe College Tree Archive (April 2023)\n\nView Summary\n\n\n\nThe Coe College Tree Archive is an online record of trees on Coe College’s campus. By creating an online archive, the project attempts to collect valuable environmental data and promote engagement with Coe’s urban forest. The online archive features interactive maps, profiles of Coe’s trees, environmental benefit estimates, tips for tree identification, and opportunities to contribute to the archive."
   },
   {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research & Writing",
     "section": "",
-    "text": "Do Mortgage Lenders Respond to Flood Risk? (May 2024) with Kristian Blickle and João A.C. Santos\nAbstract: Using unique nationwide property-level mortgage, flood risk, and flood map data, we analyze whether lenders respond to flood risk that is not captured in FEMA flood maps. We find that lenders are less willing to originate mortgages and charge higher rates for lower LTV loans that face “un-mapped” flood risk. This effect is weaker for high income applicants, as well as non-banks and small local banks. However, we find evidence that non-banks and local banks are more likely to securitize/sell mortgages to borrowers prone to flood risk. Taken together, our results are indicative that mortgage lenders are aware of flood risk outside FEMA’s identified flood zones."
+    "text": "Do Mortgage Lenders Respond to Flood Risk? (May 2024) with Kristian Blickle and Jo�o A.C. Santos\nAbstract: Using unique nationwide property-level mortgage, flood risk, and flood map data, we analyze whether lenders respond to flood risk that is not captured in FEMA flood maps. We find that lenders are less willing to originate mortgages and charge higher rates for lower LTV loans that face “un-mapped” flood risk. This effect is weaker for high income applicants, as well as non-banks and small local banks. However, we find evidence that non-banks and local banks are more likely to securitize/sell mortgages to borrowers prone to flood risk. Taken together, our results are indicative that mortgage lenders are aware of flood risk outside FEMA’s identified flood zones."
+  },
+  {
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "Evan Perry",
+    "section": "Research",
+    "text": "Research\nDo Mortgage Lenders Respond to Flood Risk? (May 2024)  with Kristian S. Blickle and João A.C. Santos  Related: LSE Blog\n\nView Abstract\n\n\n\nUsing unique nationwide property-level mortgage, flood risk, and flood map data, we analyze whether lenders respond to flood risk that is not captured in FEMA flood maps. We find that lenders are less willing to originate mortgages and charge higher rates for lower LTV loans that face “un-mapped” flood risk. This effect is weaker for high income applicants, as well as non-banks and small local banks. However, we find evidence that non-banks and local banks are more likely to securitize/sell mortgages to borrowers prone to flood risk. Taken together, our results are indicative that mortgage lenders are aware of flood risk outside FEMA’s identified flood zones."
+  },
+  {
+    "objectID": "index.html#data-software",
+    "href": "index.html#data-software",
+    "title": "Evan Perry",
+    "section": "Data & Software",
+    "text": "Data & Software"
   }
 ]
