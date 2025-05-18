@@ -31,17 +31,19 @@ function toggleSummary(paperId) {
 </script>
 ```
 ::: fixed-image
-<center><img src="images/evan_perry.png" align="center" width="150"/></center>
+<center><img src="images/eperry_circle.png" align="center" width="150"/></center>
 
 [Evan Perry]{style="font-size: 30px; font-weight: bold; color: #381D2A;"} <br>
 
-[evan.perry\@ny.frb.org](mailto:evan.perry@ny.frb.org) <br> [Google Scholar](https://scholar.google.com/citations?user=jWdgnFkAAAAJ&hl=en&oi=ao)
+[evan.perry\@yale.edu](mailto:evan.perry@yale.edu) <br> [Google Scholar](https://scholar.google.com/citations?user=jWdgnFkAAAAJ&hl=en&oi=ao)
 :::
 
-::: justify
-I'm currently a Research Analyst at the Federal Reserve Bank of New York in the Research Group's Financial Intermediation section. At the New York Fed, I support [Jo&#227;o A.C. Santos](https://www.newyorkfed.org/research/economists/Santos) and [Kristian Blickle](https://sites.google.com/site/kristiansblickle/) and work on research projects that aim to improve our understanding of how evolving climate risks impact household finance and financial intermediation. My research interests are centered around the using tools from industrial organization and financial economics to study issues and energy and environmental economics. I hold a BA in Economics and Math from [Coe College](https://www.coe.edu/), a liberal arts college located in my home state of Iowa.
+<br>
 
-*All views expressed on this website are my own and do not necessarily reflect the views of the Federal Reserve Bank of New York, the Federal Reserve System, or its Board of Governors.*
+::: justify
+I'm a first year PhD student in Environmental Economics at Yale. My research interests are centered around the using tools from industrial organization and financial economics to study issues and energy and resource economics. 
+Prior to coming to Yale, I was a research assistant in the Climate Risk Studies group at the New York Fed. I hold a BA in Economics and Math from [Coe College](https://www.coe.edu/), a liberal arts college located in my home state of Iowa.
+
 :::
 
 [Research]{style="font-size: 24px; font-weight: bold; color: #381D2A;"} <br>
